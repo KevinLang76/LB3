@@ -38,7 +38,7 @@ Git Bash für jegliche Einrichtungen gebraucht
 ### Dokumentation ist als Mark Down vorhanden
 ^^Ja
 
-###Mark down-Editor ausgewählt und eingerichtet
+### Mark down-Editor ausgewählt und eingerichtet
 HarooPad Mark Down editor verwendet.
 HarooPad ist deshalb empfehlenswert, weil es Bearbeitungs und Preview Fenster gleichzeitig anzeigen kann und Formatbefehle in Optionen vordefinert ausgewählt werden kann.
 
@@ -51,7 +51,7 @@ HarooPad ist deshalb empfehlenswert, weil es Bearbeitungs und Preview Fenster gl
 Für das einrichten von Docker habe ich folgende Anleitung verwendet:
 https://www.tecmint.com/install-apache-web-server-in-a-docker-container/
 
-###Kennt die Docker spezifischen Befehle
+### Kennt die Docker spezifischen Befehle
 Auflistung meiner Meinung nach Wichtiger Befehlen:
 
 | Befehl | Beschreibung |
@@ -73,7 +73,7 @@ True
 Webseite über Host Maschine erreichbar:
 False
 
-###Projekt mit Git und Markdown dokumentiert
+### Projekt mit Git und Markdown dokumentiert
 ^^MarkDown
 
 
@@ -81,11 +81,11 @@ False
 ###Service-Überwachung ist eingerichtet
 cAdvisor ist eingerichtet (als eigener Container)
 
-###Aktive Benachrichtigung ist eingerichtet
+### Aktive Benachrichtigung ist eingerichtet
 durch cAdvisor:
 ~$ docker run -d --name cadvisor -v /:/rootfs:ro -v /var/run:/var/run:rw -v /sys:/sys:ro -v /var/lib/docker/:/var/lib/docker:ro -p 8080:8080 google/cadvisor:latest
 
-###mind. 3 Aspekte der Container Absicherung sind berücksichtigt
+### mind. 3 Aspekte der Container Absicherung sind berücksichtigt
 
 - CPU und RAM begrenzen
 >deploy:
@@ -105,25 +105,25 @@ PW: Welcome2019
 >restart: always
 
 
-###Sicherheitsmassnahmen sind dokumentiert (Bezug zur eingerichteten Umgebung ist vorhanden)
+### Sicherheitsmassnahmen sind dokumentiert (Bezug zur eingerichteten Umgebung ist vorhanden)
 
 Siehe "mind. 3 Aspekte der Container Absicherung sind berücksichtigt"
 
-###Projekt mit Git und Markdown dokumentiert
+### Projekt mit Git und Markdown dokumentiert
 ^^ Markdown
 
 ## K5 - Zusätzliche Bewertugnspunkte allegemein (5p.)
 Kreativität, Komplezität, Umfang, Umsetzung
 
-#####Reflexion
+##### Reflexion
 Ich hatte sehr mühe in diesem Modul. Sehr selten wusste ich wirklich wie ich vogehen soll. Ich habe viele Stunden in LB2 und LB3, auch Wochenends, investiert, hatte aber nie das Gefühl von Fortschritt. Ich habe deshalb auch kein ausführliches Dockerfile, sonder habe alles direkt manuell umgesetzt.
 Ich hoffe das ich mit dem Modul M901 ab dem 15.5.2019 besser mit Linux umgehen kann.
 
 
 ## K6 - Zusätzliche systemtechnische Bewertungspunkte (4p.)
-###Container-Infrastruktur
+### Container-Infrastruktur
 Gegeben
-###Image-Bereitstellung
+### Image-Bereitstellung
 Images einmal auf Lokalen Ordner bereitgelegt:
 ~/.../Documents/TBZ-Module/M300/MeinLokalesRepository/M300/Images
 
