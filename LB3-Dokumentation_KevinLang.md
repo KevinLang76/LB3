@@ -47,7 +47,7 @@ HarooPad ist deshalb empfehlenswert, weil es Bearbeitungs und Preview Fenster gl
 + Automatisches Inhaltsverzeichniss
 
 ## K3 (5p.)
-###Bestehenden Docker-Dontainer kombinieren
+### Bestehenden Docker-Dontainer kombinieren
 Für das einrichten von Docker habe ich folgende Anleitung verwendet:
 https://www.tecmint.com/install-apache-web-server-in-a-docker-container/
 
@@ -64,7 +64,7 @@ Auflistung meiner Meinung nach Wichtiger Befehlen:
 |docker search /name/|Suchfunktion für Images auf dem Docker Hub|
 |docker pull /name/|Herunterladen des genannten Image|
 
-###Funktionsweise getestet inkl. Dokumentation der Testfälle
+### Funktionsweise getestet inkl. Dokumentation der Testfälle
 Docker VM (apache) funktionstüchtig und in der Virtualbox ersichtlich: True
 Apache Verzeichnis erstellt:
 True
@@ -78,7 +78,7 @@ False
 
 
 ## K4 - Sicherheitspakete sind implementiert (5p.)
-###Service-Überwachung ist eingerichtet
+### Service-Überwachung ist eingerichtet
 cAdvisor ist eingerichtet (als eigener Container)
 
 ### Aktive Benachrichtigung ist eingerichtet
